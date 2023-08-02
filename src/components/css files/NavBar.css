@@ -1,0 +1,21 @@
+#adding-css{
+  background-color: #173e43;
+  }
+  #adding-css .nav-link:hover{
+    color: #d4eeed;
+  }
+h1.text-center{
+  color: #173e43;
+}
+#search{
+  color: white;
+}
+#search:hover{
+  color: #d4eeed;
+  background-color: #1d5057;
+  border-radius: 1rem;
+}
+.nav-item:hover{
+  background-color: #1d5057;
+  border-radius: 1rem;
+}

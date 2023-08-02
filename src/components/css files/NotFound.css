@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#notfoundid .error-template {padding: 40px 15px;text-align: center;}
+#notfoundid .error-actions {margin-top:15px;margin-bottom:15px;}
+#notfoundid .error-actions .btn { margin-right:10px; 
+}
+
+#notfoundid{
+    margin: 30% 0;
+    background-color: #d4eeed;
+    border-radius: 1rem;
+}
+
+.btn{   
+    border-color:#173e43;
+    border-width: 0.15rem;
+}
+.btn:hover{   
+    color: white;
+    background-color: #173e43;
+}

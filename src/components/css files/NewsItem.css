@@ -1,0 +1,17 @@
+.badge.rounded-pill {
+    background-color: #3fb0ac;
+}
+
+.card-body{
+    background-color: #d4eeed;
+}
+
+a.btn.btn-sm{
+    border-color:#173e43;
+    border-width: 0.15rem;
+    
+}
+#readmore:hover{   
+    color: white;
+    background-color: #173e43;
+}
