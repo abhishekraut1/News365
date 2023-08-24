@@ -17,39 +17,39 @@ const News = (props)=>{
 
     const updateNews = async ()=>{
   
-        const TempUrl = `https://newsserver-q828.onrender.com/`;
-        const obj={country:props.country,category:props.category,PageValue:page,Page:props.pageSize};
+        // const TempUrl = `https://newsserver-q828.onrender.com/`;
+        // const obj={country:props.country,category:props.category,PageValue:page,Page:props.pageSize};
 
-        const data=await axios.post(TempUrl,obj);
-        console.log(data);
+        // const data=await axios.post(TempUrl,obj);
+        // console.log(data);
 
-        props.setProgress(10);
+        // props.setProgress(10);
    
-        setLoading(true);
-        props.setProgress(30);
-        let parsedData = data;
-        props.setProgress(70);
-        setArticles(parsedData.data.articles);
-        setTotalResults(parsedData.totalResults);
-        setLoading(false);
-        
-        props.setProgress(100);
-
-
-        //________________________________________
-         // props.setProgress(10);
-        // const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
         // setLoading(true);
-        // let data = await fetch(url);
-        // // console.log(articles);
         // props.setProgress(30);
-        // let parsedData = await data.json() 
+        // let parsedData = data;
         // props.setProgress(70);
-        // setArticles(parsedData.articles);
+        // setArticles(parsedData.data.articles);
         // setTotalResults(parsedData.totalResults);
         // setLoading(false);
         
         // props.setProgress(100);
+
+
+        //________________________________________
+         props.setProgress(10);
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
+        setLoading(true);
+        let data = await fetch(url);
+        // console.log(articles);
+        props.setProgress(30);
+        let parsedData = await data.json() 
+        props.setProgress(70);
+        setArticles(parsedData.articles);
+        setTotalResults(parsedData.totalResults);
+        setLoading(false);
+        
+        props.setProgress(100);
     }
 
     useEffect(() => {
