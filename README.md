@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# NEWS365 - news app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+News365 is your ultimate news companion, designed to provide you with a seamless and comprehensive news
+experience right at your fingertips. Crafted with the synergy of React, APIs, HTML, CSS, and Bootstrap, News365 offers
+an immersive and user-friendly interface that ensures you stay informed about the latest news, trends, and stories from
+around the world.
+News365 stands as the ultimate destination for individuals who seek to stay connected to the pulse of the world.
+
+## Screenshots
+
+#### Homepage
+This is the Homepage of news app.
+
+<img width="960" alt="Homepage" src="https://github.com/abhishekraut1/News365/assets/102864290/e2c340e4-6644-4202-8733-60bdfa05c589">
+
+#### Science Category News
+You can also search for the different news categories.
+
+<img width="960" alt="Screenshot 2023-0m8-25 012459" src="https://github.com/abhishekraut1/News365/assets/102864290/ca5b0627-309f-43b1-b418-d7824d1986e6">
+
+#### Searched category not found
+<img width="960" alt="1Screenshot 2023-08-25 013053" src="https://github.com/abhishekraut1/News365/assets/102864290/aa56fe83-f97b-4b14-be3a-0362ee4e184f">
+
+## Instructions to run the news app
+* Getting Started with Create React App
 
 ## Available Scripts
 
@@ -44,27 +66,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
