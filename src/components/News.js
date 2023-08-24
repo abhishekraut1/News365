@@ -16,27 +16,6 @@ const News = (props)=>{
     }
 
     const updateNews = async ()=>{
-  
-        // const TempUrl = `https://newsserver-q828.onrender.com/`;
-        // const obj={country:props.country,category:props.category,PageValue:page,Page:props.pageSize};
-
-        // const data=await axios.post(TempUrl,obj);
-        // console.log(data);
-
-        // props.setProgress(10);
-   
-        // setLoading(true);
-        // props.setProgress(30);
-        // let parsedData = data;
-        // props.setProgress(70);
-        // setArticles(parsedData.data.articles);
-        // setTotalResults(parsedData.totalResults);
-        // setLoading(false);
-        
-        // props.setProgress(100);
-
-
-        //________________________________________
          props.setProgress(10);
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
         setLoading(true);
@@ -56,9 +35,6 @@ const News = (props)=>{
       document.title = `${capatalizeFirstLetter(props.category)} - NEWS365`;
       updateNews();
     },[])
-    
-
-    // const [zeroArticals, setZeroArticals] = useState(false)
 
     const fetchMoreData = async ()=>{
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;
