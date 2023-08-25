@@ -16,10 +16,13 @@ This is the Homepage of news app.
 #### Science Category News
 You can also search for the different news categories.
 
-<img width="960" alt="Science Category News" src="https://github.com/abhishekraut1/News365/assets/102864290/ca5b0627-309f-43b1-b418-d7824d1986e6">
+<img width="960" alt="Science Category News" src="https://github.com/abhishekraut1/News365/assets/102864290/45ad6a7d-3c88-408d-9a23-e1f1676e413c">
 
 #### Searched category not found
 <img width="960" alt="Searched category not found" src="https://github.com/abhishekraut1/News365/assets/102864290/aa56fe83-f97b-4b14-be3a-0362ee4e184f">
+
+
+
 
 ## Instructions to run the news app
 * Getting Started with Create React App
