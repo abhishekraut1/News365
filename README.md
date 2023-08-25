@@ -1,4 +1,4 @@
-# NEWS365 - news app
+# News365 - news app
 
 News365 is your ultimate news companion, designed to provide you with a seamless and comprehensive news
 experience right at your fingertips. Crafted with the synergy of React, APIs, HTML, CSS, and Bootstrap, News365 offers
@@ -16,15 +16,15 @@ This is the Homepage of news app.
 #### Science Category News
 You can also search for the different news categories.
 
-<img width="960" alt="Screenshot 2023-0m8-25 012459" src="https://github.com/abhishekraut1/News365/assets/102864290/ca5b0627-309f-43b1-b418-d7824d1986e6">
+<img width="960" alt="Science Category News" src="https://github.com/abhishekraut1/News365/assets/102864290/ca5b0627-309f-43b1-b418-d7824d1986e6">
 
 #### Searched category not found
-<img width="960" alt="1Screenshot 2023-08-25 013053" src="https://github.com/abhishekraut1/News365/assets/102864290/aa56fe83-f97b-4b14-be3a-0362ee4e184f">
+<img width="960" alt="Searched category not found" src="https://github.com/abhishekraut1/News365/assets/102864290/aa56fe83-f97b-4b14-be3a-0362ee4e184f">
 
 ## Instructions to run the news app
 * Getting Started with Create React App
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
