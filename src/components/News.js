@@ -14,6 +14,7 @@ const News = (props)=>{
         return text.charAt(0).toUpperCase() + text.slice(1);
     }
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const updateNews = async ()=>{
          props.setProgress(10);
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
@@ -33,7 +34,9 @@ const News = (props)=>{
     useEffect(() => {
       document.title = `${capatalizeFirstLetter(props.category)} - NEWS365`;
       updateNews();
-    },[])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[props.category]) 
+
 
     const fetchMoreData = async ()=>{
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;
