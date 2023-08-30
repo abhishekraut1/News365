@@ -33,7 +33,7 @@ const News = (props)=>{
     useEffect(() => {
       document.title = `${capatalizeFirstLetter(props.category)} - NEWS365`;
       updateNews();
-    })
+    },[])
 
     const fetchMoreData = async ()=>{
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;
